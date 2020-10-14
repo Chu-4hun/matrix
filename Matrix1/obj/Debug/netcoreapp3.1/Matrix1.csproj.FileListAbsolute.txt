@@ -1,0 +1,13 @@
+D:\Rider\Git\С# Prjcts\Matrix1\bin\Debug\netcoreapp3.1\Matrix1.exe
+D:\Rider\Git\С# Prjcts\Matrix1\bin\Debug\netcoreapp3.1\Matrix1.deps.json
+D:\Rider\Git\С# Prjcts\Matrix1\bin\Debug\netcoreapp3.1\Matrix1.runtimeconfig.json
+D:\Rider\Git\С# Prjcts\Matrix1\bin\Debug\netcoreapp3.1\Matrix1.runtimeconfig.dev.json
+D:\Rider\Git\С# Prjcts\Matrix1\bin\Debug\netcoreapp3.1\Matrix1.dll
+D:\Rider\Git\С# Prjcts\Matrix1\bin\Debug\netcoreapp3.1\Matrix1.pdb
+D:\Rider\Git\С# Prjcts\Matrix1\obj\Debug\netcoreapp3.1\Matrix1.csprojAssemblyReference.cache
+D:\Rider\Git\С# Prjcts\Matrix1\obj\Debug\netcoreapp3.1\Matrix1.AssemblyInfoInputs.cache
+D:\Rider\Git\С# Prjcts\Matrix1\obj\Debug\netcoreapp3.1\Matrix1.AssemblyInfo.cs
+D:\Rider\Git\С# Prjcts\Matrix1\obj\Debug\netcoreapp3.1\Matrix1.csproj.CoreCompileInputs.cache
+D:\Rider\Git\С# Prjcts\Matrix1\obj\Debug\netcoreapp3.1\Matrix1.dll
+D:\Rider\Git\С# Prjcts\Matrix1\obj\Debug\netcoreapp3.1\Matrix1.pdb
+D:\Rider\Git\С# Prjcts\Matrix1\obj\Debug\netcoreapp3.1\Matrix1.genruntimeconfig.cache
