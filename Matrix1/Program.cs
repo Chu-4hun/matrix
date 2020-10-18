@@ -5,7 +5,9 @@ using static Matrix1.task2;
 using static Matrix1.task3;
 using static Matrix1.task4;
 using static Matrix1.TreeNode;
-
+using static Matrix1.Task7;
+using static Matrix1.task8;
+using static Matrix1.task9;
 
 
 namespace Matrix1
@@ -42,6 +44,16 @@ namespace Matrix1
             Thread.Sleep(5000);
             Console.Clear();
             task6();
+            Thread.Sleep(5000);
+            Console.Clear();
+            task7();
+            Thread.Sleep(5000);
+            Console.Clear();
+            Task8();
+            Thread.Sleep(5000);
+            Console.Clear();
+            Task9();
+            
         }
 
         static void task6()
@@ -87,10 +99,6 @@ namespace Matrix1
             }
             Console.WriteLine("count of difference {0}", sum1, "Количество строк, все элементы которых различны{0}", sum2);
         }
-
-        static void task7()
-        {
-            
-        }
+        
     }
 }
