@@ -4,7 +4,7 @@ namespace Matrix1
 {
     public class task8
     {
-        public static void Task8()
+        public static void Eight()
         {
             Console.Write("Введите количество столбец: ");
             int n = int.Parse(Console.ReadLine());

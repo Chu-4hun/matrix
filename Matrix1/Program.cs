@@ -5,6 +5,7 @@ using static Matrix1.task2;
 using static Matrix1.task3;
 using static Matrix1.task4;
 using static Matrix1.TreeNode;
+using static Matrix1.Task6;
 using static Matrix1.Task7;
 using static Matrix1.task8;
 using static Matrix1.task9;
@@ -16,89 +17,66 @@ namespace Matrix1
     {
         static void Main(string[] args)
         {
-            one();
-            Thread.Sleep(5000);
-            Console.Clear();
-            two();
-            Thread.Sleep(5000);
-            Console.Clear();
-            three();
-            Thread.Sleep(5000);
-            Console.Clear();
-            four();
-            Thread.Sleep(5000);
-            Console.Clear();
-            Console.Write("n = ");
-                var n = int.Parse(Console.ReadLine());
-                var a = new int[n];
-                var random = new Random();
-                for (int i = 0; i < a.Length; i++)
-                {
-                    a[i] = random.Next(0, 100);
-                }
+            Console.Write("Enter num of rask ");
+            SByte Nomer = 0;
+            try
+            {
+                Nomer = Convert.ToSByte(Console.ReadLine());
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("\nEnter numbers - ___-\n");
+                throw;
+            }
 
-                Console.WriteLine("Random Array: {0}", string.Join(" ", a));
+            switch (Nomer)
+            {
+                case 1:
+                    one();
+                    break;
+                case 2:
+                    two();
+                    break;
+                case 3:
+                    three();
+                    break;
+                case 4:
+                    four();
+                    break;
+                case 5:
+                    Console.Write("n = ");
+                    var n = int.Parse(Console.ReadLine());
+                    var a = new int[n];
+                    var random = new Random();
+                    for (int i = 0; i < a.Length; i++)
+                    {
+                        a[i] = random.Next(0, 100);
+                    }
 
-                Console.WriteLine("Sorted Array: {0}", string.Join(" ", TreeSort(a)));
+                    break;
+                case 6:
+                    task6();
+                    break;
+                case 7:
+                    task7();
+                    break;
+                case 8:
+                    Eight();
+                    break;
+                case 9:
+                    Task9();
+                    break;
+                case 10:
+                    Console.WriteLine("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!!!!!!!!!!!!!!!!!!");
+                    break;
+                default:
+                    Console.WriteLine("ERR");
+                    break;
+
+            }
+
             
-            Thread.Sleep(5000);
-            Console.Clear();
-            task6();
-            Thread.Sleep(5000);
-            Console.Clear();
-            task7();
-            Thread.Sleep(5000);
-            Console.Clear();
-            Task8();
-            Thread.Sleep(5000);
-            Console.Clear();
-            Task9();
-            
-        }
 
-        static void task6()
-        {
-            Console.WriteLine("arr lenght NxM");
-            int n, m, i, j;
-            n = int.Parse(Console.ReadLine());
-            m = int.Parse(Console.ReadLine());
-            int[,] mat = new int[n, m];
-            for (i = 0; i < n; i++)
-            {
-                for (j = 0; j < m; j++)
-                {
-                    mat[i, j] = int.Parse(Console.ReadLine());
-                }
-            }
-            int sum1 = 0;
- 
-            for (i = 1; i < n; i++)//перебираем столбцы
-            {
- 
-                for (j = 1; j < m - 1; j++)//перебираем элементы столбца
-                {
-                    if (mat[i, j] == mat[i, j + 1])
-                        break;
-                }
-                if (j == m - 1)
-                    sum1 = sum1 + 1;
- 
-            }
-            int sum2 = 0;
-            for (j = 1; j < m; j++)//перебираем строки
-            {
- 
-                for (i = 1; i < n - 1; i++)//перебираем элементы строк
-                {
-                    if (mat[i, j] == mat[i-1, j])
-                        break;
-                }
-                if (i == n - 1)
-                    sum2 = sum2 + 1;
-                
-            }
-            Console.WriteLine("count of difference {0}", sum1, "Количество строк, все элементы которых различны{0}", sum2);
         }
-        
     }
 }
