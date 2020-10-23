@@ -6,6 +6,7 @@ namespace Matrix1
     {
         public static void Eight()
         {
+            Console.WriteLine("Дана квадратная матрица A порядка M. Повернуть ее на угол 180°\n (при этом элемент A1,1 поменяется местами с AM,M, элемент A1,2 — с AM,M–1 и т. д.).\n Вспомогательную матрицу не использовать.");
             Console.Write("Введите количество столбец: ");
             int n = int.Parse(Console.ReadLine());
             Console.Write("Введите количество строка: ");

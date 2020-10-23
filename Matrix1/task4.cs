@@ -6,6 +6,7 @@ namespace Matrix1
     {
         public static void four()
         {
+            Console.WriteLine("Дан массив A размера N. Сформировать новый массив B того же размера по следующему правилу: \n  элемент BK равен сумме элементов массива A с номерами от K до N.");
             Console.WriteLine("enter N");            
             int N = Int32.Parse(Console.ReadLine());
             int[] A = new int[N];

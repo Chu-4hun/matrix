@@ -44,6 +44,7 @@ namespace Matrix1
                     four();
                     break;
                 case 5:
+                    Console.WriteLine("Сортировка с помощью дерева.");
                     Console.Write("n = ");
                     var n = int.Parse(Console.ReadLine());
                     var a = new int[n];

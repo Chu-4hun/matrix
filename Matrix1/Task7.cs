@@ -6,6 +6,7 @@ namespace Matrix1
     {
         public static void task7()
         {
+            Console.WriteLine("Дана матрица размера M ´ N.\n Удалить ее первый столбец, содержащий только положительные элементы.\n Если требуемых столбцов нет, то вывести матрицу без изменений.");
             Console.WriteLine("Задание 7");
             Console.Write("Введите количество строк в матрице: ");
             int M = Convert.ToInt32(Console.ReadLine());

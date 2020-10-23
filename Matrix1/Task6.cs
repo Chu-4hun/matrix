@@ -6,6 +6,7 @@ namespace Matrix1
     {
         public static void task6()
         {
+            Console.WriteLine("Дана целочисленная матрица размера M ´ N. \nНайти количество ее строк, все элементы которых различны");
             Console.WriteLine("arr lenght NxM");
             int n, m, i, j;
             n = int.Parse(Console.ReadLine());
